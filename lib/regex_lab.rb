@@ -17,7 +17,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
 
-capitalize = text.match(/[A-Z]+[a-zA-Z]+[.?!]/i)
+capitalized = text.match(/[A-Z]+[a-zA-Z]+[.?!]/i)
  text.end_with?(*capitalized)
  
  end
