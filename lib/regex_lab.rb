@@ -20,7 +20,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 text.match(/[A-Z]+[a-zA-Z]+[.?!]/i) ? true : false
 
 
- 
+ text.match(/^[A-Z].*[\.!?]$/) ? true : false
  
  end
 
